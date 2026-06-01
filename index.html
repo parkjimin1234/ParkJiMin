@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- SEO Meta Tags -->
+  <title>Your Name | AI Engineer Portfolio</title>
+  <meta name="description" content="AI/Computer Science 전공 대학생 포트폴리오. Computer Vision, Deep Learning, Machine Learning 프로젝트와 기술 스택 소개." />
+  <meta name="keywords" content="AI Engineer, Machine Learning, Deep Learning, Computer Vision, Portfolio, PyTorch" />
+  <meta name="author" content="Your Name" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Your Name | AI Engineer Portfolio" />
+  <meta property="og:description" content="AI Engineer / ML Engineer 취업용 포트폴리오" />
+  <meta property="og:image" content="https://via.placeholder.com/1200x630?text=AI+Portfolio" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome 아이콘 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+  <!-- ===== Navigation Bar ===== -->
+  <header>
+    <nav class="navbar" aria-label="주 메뉴">
+      <a href="#hero" class="logo">&lt;DEV/&gt;</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-btn" aria-label="다크모드 전환">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button id="hamburger" class="hamburger" aria-label="메뉴 열기">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section id="hero" class="hero">
+    <div class="hero-content reveal">
+      <div class="hero-photo" aria-label="프로필 사진">
+        <i class="fa-solid fa-user-astronaut"></i>
+      </div>
+      <h1>Your Name</h1>
+      <p class="hero-major">Department of Artificial Intelligence Engineering</p>
+      <p class="hero-tagline">AI와 데이터로 세상의 문제를 푸는 엔지니어를 꿈꿉니다.</p>
+      <div class="hero-buttons">
+        <a href="https://github.com/yourusername" class="btn btn-primary" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+        <a href="resume.pdf" class="btn btn-outline" download><i class="fa-solid fa-file-arrow-down"></i> Resume</a>
+        <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-envelope"></i> Contact</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About Me ===== -->
+  <section id="about" class="section">
+    <h2 class="section-title reveal">About Me</h2>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>인공지능공학을 전공하며 데이터 속에서 의미를 발견하고, 이를 실제 문제 해결로 연결하는 일에 매력을 느낍니다. Computer Vision과 Deep Learning을 중심으로 모델을 설계하고 실험하는 과정을 즐기며, 이론을 코드로 구현해 검증하는 것을 중요하게 생각합니다.</p>
+        <p>PyTorch와 Scikit-Learn을 활용한 다양한 프로젝트를 통해 데이터 전처리부터 모델 학습, 성능 분석까지의 전 과정을 경험했습니다. 꾸준한 학습과 협업을 통해 신뢰할 수 있는 AI Engineer이자 Researcher로 성장하고자 합니다.</p>
+      </div>
+      <div class="about-cards reveal">
+        <div class="info-card"><h3><i class="fa-solid fa-graduation-cap"></i> 전공</h3><p>인공지능공학</p></div>
+        <div class="info-card"><h3><i class="fa-solid fa-lightbulb"></i> 관심 분야</h3><p>Computer Vision · Deep Learning · Machine Learning · NLP · Data Analysis</p></div>
+        <div class="info-card"><h3><i class="fa-solid fa-bullseye"></i> 진로 목표</h3><p>AI Engineer · AI Researcher</p></div>
+        <div class="info-card"><h3><i class="fa-solid fa-code"></i> 현재 학습 기술</h3><p>PyTorch · Scikit-Learn · Deep Learning · Git/GitHub</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Education ===== -->
+  <section id="education" class="section alt-bg">
+    <h2 class="section-title reveal">Education</h2>
+    <div class="table-wrapper reveal">
+      <table>
+        <thead>
+          <tr><th>학교명</th><th>학과</th><th>학년</th><th>재학기간</th><th>주요 과목</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Chosun University</td>
+            <td>Department of Artificial Intelligence Engineering</td>
+            <td>3학년</td>
+            <td>2022.03 ~ 재학중</td>
+            <td>Machine Learning, Deep Learning, Data Structures, Computer Vision, Database, Web Programming</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section id="skills" class="section">
+    <h2 class="section-title reveal">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-category reveal">
+        <h3><i class="fa-solid fa-terminal"></i> Programming</h3>
+        <div class="skill"><span>Python</span><div class="bar"><div class="fill" data-level="75"></div></div></div>
+        <div class="skill"><span>C/C++</span><div class="bar"><div class="fill" data-level="70"></div></div></div>
+        <div class="skill"><span>JavaScript</span><div class="bar"><div class="fill" data-level="40"></div></div></div>
+      </div>
+      <div class="skill-category reveal">
+        <h3><i class="fa-solid fa-brain"></i> AI / ML</h3>
+        <div class="skill"><span>PyTorch</span><div class="bar"><div class="fill" data-level="72"></div></div></div>
+        <div class="skill"><span>TensorFlow</span><div class="bar"><div class="fill" data-level="40"></div></div></div>
+        <div class="skill"><span>Scikit-Learn</span><div class="bar"><div class="fill" data-level="75"></div></div></div>
+      </div>
+      <div class="skill-category reveal">
+        <h3><i class="fa-solid fa-globe"></i> Web</h3>
+        <div class="skill"><span>HTML</span><div class="bar"><div class="fill" data-level="70"></div></div></div>
+        <div class="skill"><span>CSS</span><div class="bar"><div class="fill" data-level="65"></div></div></div>
+        <div class="skill"><span>React</span><div class="bar"><div class="fill" data-level="40"></div></div></div>
+      </div>
+      <div class="skill-category reveal">
+        <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools</h3>
+        <div class="skill"><span>Git</span><div class="bar"><div class="fill" data-level="75"></div></div></div>
+        <div class="skill"><span>GitHub</span><div class="bar"><div class="fill" data-level="78"></div></div></div>
+        <div class="skill"><span>VS Code</span><div class="bar"><div class="fill" data-level="85"></div></div></div>
+        <div class="skill"><span>Docker</span><div class="bar"><div class="fill" data-level="40"></div></div></div>
+      </div>
+      <div class="skill-category reveal">
+        <h3><i class="fa-solid fa-database"></i> Database</h3>
+        <div class="skill"><span>MySQL</span><div class="bar"><div class="fill" data-level="60"></div></div></div>
+        <div class="skill"><span>SQLite</span><div class="bar"><div class="fill" data-level="65"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects" class="section alt-bg">
+    <h2 class="section-title reveal">Projects</h2>
+    <div class="projects-grid">
+      <article class="project-card reveal">
+        <div class="project-img"><i class="fa-solid fa-wine-glass"></i></div>
+        <div class="project-body">
+          <h3>Wine Dataset Classification</h3>
+          <p>Machine Learning 기반 와인 품질 분류. k-NN, Logistic Regression, Kernel SVM 적용 및 PCA 적용 전후 성능 비교, Accuracy 분석과 결정 경계 시각화.</p>
+          <div class="tags"><span>scikit-learn</span><span>PCA</span><span>SVM</span><span>k-NN</span></div>
+          <p class="period"><i class="fa-regular fa-calendar"></i> 2024.03 ~ 2024.04</p>
+          <div class="project-links">
+            <a href="#" class="btn btn-sm btn-primary" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="#" class="btn btn-sm btn-outline" target="_blank" rel="noopener"><i class="fa-solid fa-play"></i> Demo</a>
+          </div>
+        </div>
+      </article>
+      <article class="project-card reveal">
+        <div class="project-img"><i class="fa-solid fa-1"></i></div>
+        <div class="project-body">
+          <h3>Digits Recognition System</h3>
+          <p>Digits Dataset 분석. PCA와 LDA를 활용한 특성 차원 축소 및 다양한 분류 모델의 성능 비교.</p>
+          <div class="tags"><span>PCA</span><span>LDA</span><span>Classification</span></div>
+          <p class="period"><i class="fa-regular fa-calendar"></i> 2024.05 ~ 2024.06</p>
+          <div class="project-links">
+            <a href="#" class="btn btn-sm btn-primary" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="#" class="btn btn-sm btn-outline" target="_blank" rel="noopener"><i class="fa-solid fa-play"></i> Demo</a>
+          </div>
+        </div>
+      </article>
+      <article class="project-card reveal">
+        <div class="project-img"><i class="fa-solid fa-filter"></i></div>
+        <div class="project-body">
+          <h3>Feature Selection Research</h3>
+          <p>SBS, PCA, SelectFromModel 기반 특성 선택 연구. Random Forest, SVM, k-NN 모델을 활용한 비교 실험.</p>
+          <div class="tags"><span>SBS</span><span>RandomForest</span><span>PCA</span></div>
+          <p class="period"><i class="fa-regular fa-calendar"></i> 2024.09 ~ 2024.10</p>
+          <div class="project-links">
+            <a href="#" class="btn btn-sm btn-primary" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="#" class="btn btn-sm btn-outline" target="_blank" rel="noopener"><i class="fa-solid fa-play"></i> Demo</a>
+          </div>
+        </div>
+      </article>
+      <article class="project-card reveal">
+        <div class="project-img"><i class="fa-solid fa-wave-square"></i></div>
+        <div class="project-body">
+          <h3>RNN vs SSM Analysis</h3>
+          <p>State Space Model 분석. Signal &amp; System 관점에서의 해석, RNN과의 비교 및 학습 효율 분석.</p>
+          <div class="tags"><span>SSM</span><span>RNN</span><span>PyTorch</span></div>
+          <p class="period"><i class="fa-regular fa-calendar"></i> 2024.11 ~ 2025.01</p>
+          <div class="project-links">
+            <a href="#" class="btn btn-sm btn-primary" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="#" class="btn btn-sm btn-outline" target="_blank" rel="noopener"><i class="fa-solid fa-play"></i> Demo</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== Experience Timeline ===== -->
+  <section id="experience" class="section">
+    <h2 class="section-title reveal">Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item reveal"><div class="dot"></div><div class="content"><h3>AI Study Group</h3><p>딥러닝 논문 리뷰 및 구현 스터디 참여</p></div></div>
+      <div class="timeline-item reveal"><div class="dot"></div><div class="content"><h3>Machine Learning Projects</h3><p>다양한 ML 데이터셋 기반 모델링 프로젝트 수행</p></div></div>
+      <div class="timeline-item reveal"><div class="dot"></div><div class="content"><h3>GitHub Collaboration Practice</h3><p>Git 브랜치 전략 및 협업 워크플로우 실습</p></div></div>
+      <div class="timeline-item reveal"><div class="dot"></div><div class="content"><h3>Programming Club Activities</h3><p>교내 프로그래밍 동아리 활동 및 코드 리뷰</p></div></div>
+      <div class="timeline-item reveal"><div class="dot"></div><div class="content"><h3>Academic Team Projects</h3><p>팀 기반 학술 프로젝트 설계 및 발표</p></div></div>
+    </div>
+  </section>
+
+  <!-- ===== Resume ===== -->
+  <section id="resume" class="section alt-bg center-section">
+    <h2 class="section-title reveal">Resume</h2>
+    <p class="reveal">이력서를 PDF로 다운로드하실 수 있습니다.</p>
+    <a href="resume.pdf" class="btn btn-primary reveal" download><i class="fa-solid fa-file-pdf"></i> Download Resume (PDF)</a>
+  </section>
+
+  <!-- ===== Career Goal ===== -->
+  <section id="career" class="section">
+    <h2 class="section-title reveal">Career Goal</h2>
+    <div class="career-grid">
+      <div class="career-card reveal"><i class="fa-solid fa-robot"></i><h3>AI Developer</h3></div>
+      <div class="career-card reveal"><i class="fa-solid fa-gears"></i><h3>Machine Learning Engineer</h3></div>
+      <div class="career-card reveal"><i class="fa-solid fa-eye"></i><h3>Computer Vision Engineer</h3></div>
+      <div class="career-card reveal"><i class="fa-solid fa-flask"></i><h3>AI Researcher</h3></div>
+      <div class="career-card reveal"><i class="fa-solid fa-school"></i><h3>Graduate School / Research Track</h3></div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section alt-bg center-section">
+    <h2 class="section-title reveal">Contact</h2>
+    <div class="contact-links reveal">
+      <a href="mailto:your.email@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i><span>Email</span></a>
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i><span>GitHub</span></a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i><span>LinkedIn</span></a>
+      <a href="https://yourblog.notion.site" target="_blank" rel="noopener" aria-label="Blog"><i class="fa-solid fa-blog"></i><span>Blog/Notion</span></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Your Name. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <button id="topBtn" class="top-btn" aria-label="맨 위로"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
